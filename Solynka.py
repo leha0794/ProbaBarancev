@@ -18,12 +18,9 @@ class test_add_group(unittest.TestCase):
 
     def test_add_Page(self):
         wd = self.wd
-        self.open_home_page(wd)
         self.login(wd, Logi(email="leha0793@mail.ru", password="qwerty12345"))
         self.create_notepad(wd)
         self.add_page(wd)
-        self.return_home_page(wd)
-        self.setting_notepad(wd)
         self.delete_notepad(wd)
         self.logout(wd)
         time.sleep(5)
@@ -32,6 +29,8 @@ class test_add_group(unittest.TestCase):
         wd.find_element_by_xpath("/html/body/div[1]/div/div/div[1]/div[3]/div/span/a").click()
 
     def delete_notepad(self, wd):
+        self.return_home_page(wd)
+        self.setting_notepad(wd)
         wd.find_element_by_xpath("/html/body/div[1]/div/div[2]/form/input[2]").click()
         wd.find_element_by_xpath("/html/body/div[1]/div/div[2]/div[2]/div[3]/div/button[1]/span").click()
 
@@ -48,6 +47,7 @@ class test_add_group(unittest.TestCase):
         wd.find_element_by_xpath("/html/body/div[1]/div/div/div[2]/div[2]/div/a").click()
 
     def login(self, wd, logi):
+        self.open_home_page(wd)
         wd.find_element_by_name("email").click()
         wd.find_element_by_name("email").clear()
         wd.find_element_by_name("email").send_keys(logi.email)
