@@ -12,8 +12,8 @@ def app(request):
 
 def test_add_Page(app):
     app.session.login(Logi(email="leha0793@mail.ru", password="qwerty12345"))
-    app.create_notepad()
-    app.add_page()
-    app.delete_notepad()
+    app.notepad.create()
+    app.notepad.add_page()
+    app.notepad.delete()
     app.session.logout()
 
