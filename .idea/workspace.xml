@@ -13,20 +13,22 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Solynka.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-              <folding>
-                <element signature="e#1#22#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="187">
+              <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+            <state>
+              <caret column="1" selection-start-column="1" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -58,8 +60,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/logi.py" />
-        <option value="$PROJECT_DIR$/Solynka.py" />
         <option value="$PROJECT_DIR$/application.py" />
+        <option value="$PROJECT_DIR$/Solynka.py" />
       </list>
     </option>
   </component>
@@ -74,7 +76,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Course" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -82,10 +83,16 @@
               <item name="ProbaBarancev" type="b2602c69:ProjectViewProjectNode" />
               <item name="ProbaBarancev" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ProbaBarancev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProbaBarancev" type="462c0819:PsiDirectoryNode" />
+              <item name="fixture" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Course" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -104,7 +111,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python tests.pytest in Solynka.py">
     <configuration name="Unittests in Solynka.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="ProbaBarancev" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -115,12 +122,28 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/Solynka.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/Solynka.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in Solynka.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="ProbaBarancev" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/Solynka.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest in Solynka.py" />
         <item itemvalue="Python tests.Unittests in Solynka.py" />
       </list>
     </recent_temporary>
@@ -129,15 +152,6 @@
     <configuration>C:\Users\leha0\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_Solynka_py - 2019.06.15 at 21h 15m 54s.xml">
-      <configuration name="Unittests in Solynka.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_Solynka_py - 2019.06.15 at 21h 33m 57s.xml">
-      <configuration name="Unittests in Solynka.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_Solynka_py - 2019.06.21 at 15h 50m 18s.xml">
-      <configuration name="Unittests in Solynka.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_Solynka_py - 2019.06.21 at 15h 51m 24s.xml">
       <configuration name="Unittests in Solynka.py" configurationId="tests" />
     </history-entry>
@@ -159,16 +173,24 @@
     <history-entry file="Unittests_in_Solynka_py - 2019.06.27 at 15h 33m 43s.xml">
       <configuration name="Unittests in Solynka.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_Solynka_py - 2019.06.27 at 15h 34m 19s.xml">
+      <configuration name="Unittests in Solynka.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_Solynka_py - 2019.06.27 at 15h 37m 30s.xml">
+      <configuration name="pytest in Solynka.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_Solynka_py - 2019.06.27 at 15h 43m 37s.xml">
+      <configuration name="pytest in Solynka.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1311" y="0" width="616" height="1087" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.051903114" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34602076" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33296582" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3319012" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39742213" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -204,13 +226,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/logi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -218,13 +233,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Solynka.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#1#22#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="187">
+          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
         </state>
       </provider>
     </entry>

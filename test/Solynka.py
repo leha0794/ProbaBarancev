@@ -1,7 +1,6 @@
-import time
 import pytest
-from logi import Logi
-from application import Application
+from model.logi import Logi
+from fixture.application import Application
 
 
 @pytest.fixture
@@ -17,4 +16,11 @@ def test_add_Page(app):
     app.add_page()
     app.delete_notepad()
     app.logout()
-    time.sleep(5)
+
+
+def test_add_Page2(app):
+    app.login(Logi(email="leha0793@mail.ru", password="qwerty12345"))
+    app.create_notepad()
+    app.add_page()
+    app.delete_notepad()
+    app.logout()
