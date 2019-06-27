@@ -1,4 +1,5 @@
 from selenium import webdriver
+from fixture.session import SessionHelper
 
 
 class Application:
@@ -6,10 +7,7 @@ class Application:
     def __init__(self):
         self.wd = webdriver.Firefox()  # сейчас нужен гекодрайвер
         self.wd.implicitly_wait(60)  # время на каждое действие, вместо sleep
-
-    def logout(self):
-        wd = self.wd
-        wd.find_element_by_xpath("/html/body/div[1]/div/div/div[1]/div[3]/div/span/a").click()
+        self.session = SessionHelper(self)
 
     def delete_notepad(self):
         wd = self.wd
@@ -33,18 +31,6 @@ class Application:
     def create_notepad(self):
         wd = self.wd
         wd.find_element_by_xpath("/html/body/div[1]/div/div/div[2]/div[2]/div/a").click()
-
-    def login(self, logi):
-        wd = self.wd
-        self.open_home_page()
-        wd.find_element_by_name("email").click()
-        wd.find_element_by_name("email").clear()
-        wd.find_element_by_name("email").send_keys(logi.email)
-        wd.find_element_by_name("password").click()
-        wd.find_element_by_name("password").clear()
-        wd.find_element_by_name("password").send_keys(logi.password)
-        wd.find_element_by_xpath(
-            "/html/body/div[1]/div/div/div[2]/div[1]/div/div[1]/form/table/tbody/tr[3]/td[2]/input").click()
 
     def open_home_page(self):
         wd = self.wd
