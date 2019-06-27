@@ -13,11 +13,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Solynka.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="34" column="32" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+            <state relative-caret-position="340">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
               <folding>
-                <element signature="e#0#30#0" expanded="true" />
+                <element signature="e#1#22#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="441">
+              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
             </state>
           </provider>
         </entry>
@@ -26,7 +35,7 @@
         <entry file="file://$PROJECT_DIR$/logi.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+              <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -41,19 +50,22 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PREVIEW_PUSH_ON_COMMIT_AND_PUSH" value="false" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/logi.py" />
         <option value="$PROJECT_DIR$/Solynka.py" />
+        <option value="$PROJECT_DIR$/application.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="856" />
-    <option name="width" value="1071" />
+    <option name="x" value="1311" />
+    <option name="width" value="616" />
     <option name="height" value="1087" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -63,12 +75,22 @@
     </navigator>
     <panes>
       <pane id="Course" />
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ProbaBarancev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProbaBarancev" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/GitHubDesktop/GitHubDesktop.exe" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -104,27 +126,9 @@
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\leha0\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_Solynka_py - 2019.06.15 at 21h 07m 15s.xml">
-      <configuration name="Unittests in Solynka.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_Solynka_py - 2019.06.15 at 21h 08m 21s.xml">
-      <configuration name="Unittests in Solynka.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_Solynka_py - 2019.06.15 at 21h 08m 54s.xml">
-      <configuration name="Unittests in Solynka.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_Solynka_py - 2019.06.15 at 21h 09m 53s.xml">
-      <configuration name="Unittests in Solynka.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_Solynka_py - 2019.06.15 at 21h 10m 46s.xml">
-      <configuration name="Unittests in Solynka.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_Solynka_py - 2019.06.15 at 21h 14m 01s.xml">
-      <configuration name="Unittests in Solynka.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_Solynka_py - 2019.06.15 at 21h 15m 54s.xml">
       <configuration name="Unittests in Solynka.py" configurationId="tests" />
     </history-entry>
@@ -137,16 +141,34 @@
     <history-entry file="Unittests_in_Solynka_py - 2019.06.21 at 15h 51m 24s.xml">
       <configuration name="Unittests in Solynka.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_Solynka_py - 2019.06.27 at 15h 11m 35s.xml">
+      <configuration name="Unittests in Solynka.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_Solynka_py - 2019.06.27 at 15h 30m 39s.xml">
+      <configuration name="Unittests in Solynka.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_Solynka_py - 2019.06.27 at 15h 31m 17s.xml">
+      <configuration name="Unittests in Solynka.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_Solynka_py - 2019.06.27 at 15h 31m 33s.xml">
+      <configuration name="Unittests in Solynka.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_Solynka_py - 2019.06.27 at 15h 32m 06s.xml">
+      <configuration name="Unittests in Solynka.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_Solynka_py - 2019.06.27 at 15h 33m 43s.xml">
+      <configuration name="Unittests in Solynka.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="856" y="0" width="1071" height="1087" extended-state="0" />
+    <frame x="1311" y="0" width="616" height="1087" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.4211036" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.051903114" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3329753" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33296582" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39742213" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -175,13 +197,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/logi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/unittest/case.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -189,12 +204,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Solynka.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="34" column="32" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+        <state relative-caret-position="340">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
           <folding>
-            <element signature="e#0#30#0" expanded="true" />
+            <element signature="e#1#22#0" expanded="true" />
           </folding>
         </state>
       </provider>
