@@ -10,20 +10,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/Solynka.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="68">
+              <caret line="4" column="77" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="77" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/conftest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="51">
+              <caret line="3" column="110" selection-start-line="3" selection-start-column="110" selection-end-line="3" selection-end-column="110" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -34,29 +34,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fixture/notepad.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fixture/session.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fixture/application.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="458">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
         </entry>
@@ -84,17 +63,18 @@
         <option value="$PROJECT_DIR$/fixture/session.py" />
         <option value="$PROJECT_DIR$/fixture/group.py" />
         <option value="$PROJECT_DIR$/fixture/page.py" />
-        <option value="$PROJECT_DIR$/fixture/notepad.py" />
         <option value="$PROJECT_DIR$/fixture/application.py" />
         <option value="$PROJECT_DIR$/test/Solynka.py" />
         <option value="$PROJECT_DIR$/test/conftest.py" />
+        <option value="$PROJECT_DIR$/test/test_modify.py" />
+        <option value="$PROJECT_DIR$/fixture/notepad.py" />
+        <option value="$PROJECT_DIR$/conftest.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1178" />
-    <option name="y" value="2" />
-    <option name="width" value="726" />
+    <option name="x" value="1255" />
+    <option name="width" value="672" />
     <option name="height" value="1087" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -109,6 +89,11 @@
             <path>
               <item name="ProbaBarancev" type="b2602c69:ProjectViewProjectNode" />
               <item name="ProbaBarancev" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProbaBarancev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProbaBarancev" type="462c0819:PsiDirectoryNode" />
+              <item name="fixture" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ProbaBarancev" type="b2602c69:ProjectViewProjectNode" />
@@ -128,6 +113,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Test python\ProbaBarancev" />
       <recent name="F:\Test python\ProbaBarancev\test" />
       <recent name="F:\Test python\ProbaBarancev\fixture" />
       <recent name="F:\Test python\ProbaBarancev\model" />
@@ -175,9 +161,25 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest in test_modify.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="ProbaBarancev" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_modify.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.pytest in Solynka.py" />
+        <item itemvalue="Python tests.pytest in test_modify.py" />
         <item itemvalue="Python tests.Unittests in Solynka.py" />
       </list>
     </recent_temporary>
@@ -186,27 +188,6 @@
     <configuration>C:\Users\leha0\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_Solynka_py - 2019.06.27 at 15h 31m 17s.xml">
-      <configuration name="Unittests in Solynka.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_Solynka_py - 2019.06.27 at 15h 31m 33s.xml">
-      <configuration name="Unittests in Solynka.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_Solynka_py - 2019.06.27 at 15h 32m 06s.xml">
-      <configuration name="Unittests in Solynka.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_Solynka_py - 2019.06.27 at 15h 33m 43s.xml">
-      <configuration name="Unittests in Solynka.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_Solynka_py - 2019.06.27 at 15h 34m 19s.xml">
-      <configuration name="Unittests in Solynka.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_Solynka_py - 2019.06.27 at 15h 37m 30s.xml">
-      <configuration name="pytest in Solynka.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_Solynka_py - 2019.06.27 at 15h 43m 37s.xml">
-      <configuration name="pytest in Solynka.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_in_Solynka_py - 2019.06.27 at 16h 00m 58s.xml">
       <configuration name="pytest in Solynka.py" configurationId="tests" />
     </history-entry>
@@ -216,16 +197,37 @@
     <history-entry file="pytest_in_Solynka_py - 2019.06.28 at 16h 37m 27s.xml">
       <configuration name="pytest in Solynka.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_in_Solynka_py - 2019.06.28 at 16h 38m 02s.xml">
+      <configuration name="pytest in Solynka.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_Solynka_py - 2019.06.28 at 16h 55m 08s.xml">
+      <configuration name="pytest in Solynka.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_modify_py - 2019.06.28 at 16h 55m 25s.xml">
+      <configuration name="pytest in test_modify.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_modify_py - 2019.06.28 at 17h 05m 04s.xml">
+      <configuration name="pytest in test_modify.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_Solynka_py - 2019.06.28 at 17h 05m 21s.xml">
+      <configuration name="pytest in Solynka.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_Solynka_py - 2019.06.28 at 17h 05m 55s.xml">
+      <configuration name="pytest in Solynka.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_Solynka_py - 2019.06.28 at 17h 16m 09s.xml">
+      <configuration name="pytest in Solynka.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1178" y="2" width="726" height="1087" extended-state="0" />
+    <frame x="1255" y="0" width="672" height="1087" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2630814" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13091482" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3296582" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3319012" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39742213" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3319012" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39742213" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -287,27 +289,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fixture/notepad.py">
+    <entry file="file://$PROJECT_DIR$/test/test_modify.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conftest.py">
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/_pytest/python.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="76">
+          <caret line="173" selection-start-line="173" selection-end-line="173" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/Solynka.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="68">
+          <caret line="4" column="77" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fixture/notepad.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="110" selection-start-line="3" selection-start-column="110" selection-end-line="3" selection-end-column="110" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
